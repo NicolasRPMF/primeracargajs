@@ -18,15 +18,19 @@ function calcularTotal() {
 
 alert("Bebimos " + calcularTotal() + " tragos");
 
-const escabio = ["Fernet", "Pinta", "Daikiri", "DrLemon"];
+const escabio = ["Fernet", "Birra", "Daikiri", "DrLemon"];
 
 alert("Estos fueron: " + escabio.join(", "));
 
 const olvido = prompt("¿Olvidaste algún trago? Si es así, ¿cuál fue?");
 
-escabio.push(olvido);
+let = escabio.push(olvido);
 alert("Al final bebimos: " + escabio.join(", "));
 
 
+
+
+
+alert(" Y el orden en que las bebimos fue " + " " + escabio.sort() )
 
 
